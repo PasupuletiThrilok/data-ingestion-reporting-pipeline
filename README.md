@@ -13,7 +13,7 @@ This project simulates a real-world data pipeline that ingests external data, pr
 
 ## System Overview
 
-The system follows a simple and reliable pipeline:
+The system follows a simple and reliable pipeline:<br>
 External API → Data Ingestion → Data Transformation → Database → Reporting APIs
 
 
@@ -34,24 +34,25 @@ External API → Data Ingestion → Data Transformation → Database → Reporti
 
 ## Architecture
 
-Client
-↓
-Ingestion API (FastAPI)
-↓
-Fetch & Transform Layer
-↓
-Database (SQLite)
-↓
-Reporting APIs
+Client<br>
+↓<br>
+Ingestion API (FastAPI)<br>
+↓<br>
+Fetch & Transform Layer<br>
+↓<br>
+Database (SQLite)<br>
+↓<br>
+Reporting APIs<br>
 
 
 ## API Screenshots
 
 ### Swagger API Overview
-
+<img width="1920" height="989" alt="image" src="https://github.com/user-attachments/assets/9a8f0c6a-b4db-4177-96e2-bc6af41b16d3" />
 
 ### Reporting Summary
-
+<img width="1920" height="2451" alt="image" src="https://github.com/user-attachments/assets/76129d45-0e8b-4a72-b69d-997a9e1eb5aa" />
+<img width="1920" height="2559" alt="image" src="https://github.com/user-attachments/assets/1c7b66a6-eca4-4401-9426-0d41f084e946" />
 
 
 ## Tech Stack
@@ -92,4 +93,5 @@ It reflects real-world patterns used in data ingestion, reporting services, and 
 
 
 ## Caution
+
 This project is intended for learning and demonstration purposes only.
